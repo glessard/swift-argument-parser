@@ -11,7 +11,7 @@
 
 import ArgumentParser
 import ArgumentParserToolInfo
-import Foundation
+internal import Foundation
 
 struct Preamble: MDocComponent {
   var date: Date

@@ -12,7 +12,7 @@
 #if os(macOS)
 
 import ArgumentParser
-import Foundation
+internal import Foundation
 
 // MARK: Command
 

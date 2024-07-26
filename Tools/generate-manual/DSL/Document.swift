@@ -11,7 +11,7 @@
 
 import ArgumentParser
 import ArgumentParserToolInfo
-import Foundation
+internal import Foundation
 
 struct Document: MDocComponent {
   var multiPage: Bool

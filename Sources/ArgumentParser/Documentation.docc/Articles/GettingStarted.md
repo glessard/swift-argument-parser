@@ -228,7 +228,7 @@ As promised, here's the complete `count` command, for your experimentation:
 
 ```swift
 import ArgumentParser
-import Foundation
+internal import Foundation
 
 @main
 struct Count: ParsableCommand {

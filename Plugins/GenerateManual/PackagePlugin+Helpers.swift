@@ -9,7 +9,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import Foundation
+internal import Foundation
 import PackagePlugin
 
 extension ArgumentExtractor {

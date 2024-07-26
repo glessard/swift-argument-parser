@@ -10,7 +10,7 @@
 //===----------------------------------------------------------------------===//
 
 import ArgumentParser
-import Foundation
+internal import Foundation
 
 @main
 @available(macOS 12, *)

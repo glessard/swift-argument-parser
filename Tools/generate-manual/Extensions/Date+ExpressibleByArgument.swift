@@ -10,11 +10,11 @@
 //===----------------------------------------------------------------------===//
 
 import ArgumentParser
-import Foundation
+internal import Foundation
 
 extension Foundation.Date: ArgumentParser.ExpressibleByArgument {
   // parsed as `yyyy-mm-dd`
-  public init?(argument: String) {
+  init?(argument: String) {
     // ensure the input argument is composed of exactly 3 components separated
     // by dashes ('-')
     let components = argument.split(separator: "-")

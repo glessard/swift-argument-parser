@@ -9,7 +9,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import Foundation
+internal import Foundation
 
 enum SubprocessError: Swift.Error, LocalizedError, CustomStringConvertible {
   case missingExecutable(url: URL)

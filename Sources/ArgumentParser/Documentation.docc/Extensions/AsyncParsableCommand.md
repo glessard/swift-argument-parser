@@ -9,7 +9,7 @@ To use `async`/`await` code in your commands' `run()` method implementations, fo
 The following example declares a `CountLines` command that uses Foundation's asynchronous `FileHandle.AsyncBytes` to read the lines from a file: 
 
 ```swift
-import Foundation
+internal import Foundation
 
 @main
 struct CountLines: AsyncParsableCommand {
